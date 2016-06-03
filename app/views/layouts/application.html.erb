@@ -5,10 +5,29 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
+      </script>
+      <script src="https://oss.maxcnd.com/respond/1.4.2/respond.min.js">
+      </script>
+	<![endif]-->
 </head>
 <body>
+	<header class="navbar navbar-fixed-top navbar-inverse">
+		<div class="container">
+			<%= link_to "just do it!", root_path, id: "logo" %>
+			<nav>
+				<ul class="nav navbar-nav navbar-right">
+					<li><%= link_to "Home", root_path %></li>
+					<li><%= link_to "Log in", '#' %></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="container">
 
-<%= yield %>
+		<%= yield %>
 
+	</div>
 </body>
 </html>
