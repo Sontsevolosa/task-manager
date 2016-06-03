@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   root 'tasks#index'
   get 'signup' => 'users#new'
   get 'login' => 'sessions#new'
-  get 'login' => 'sessions#create'
+  post 'login' => 'sessions#create'
   get 'logout' => 'sessions#destroy'
   resources :users
   # The priority is based upon order of creation: first created -> highest priority.
