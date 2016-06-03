@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/new'
+  #get 'users/new'
 
   root 'tasks#index'
   get 'signup' => 'users#new'
