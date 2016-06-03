@@ -40,6 +40,7 @@ group :development, :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'rspec-rails', '~> 3.4.2'
+  gem 'capybara', '~> 2.2.0'
 end
 
 group :development do
