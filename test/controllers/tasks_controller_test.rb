@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class TasksControllerTest < ActionController::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "should get title" do
+  	get :index
+  	assert_select "title", "Just Do It!"
+  end
 end
