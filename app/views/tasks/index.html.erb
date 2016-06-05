@@ -1,6 +1,10 @@
 <div class="col-md-8">
 <h3>Tasks (<%= @tasks.count %>)</h3>
 	<ol class = "tasks">
+	
 		<%= render @tasks %>
+		
 	</ol>
+
+<%= will_paginate @tasks %>
 </div>
