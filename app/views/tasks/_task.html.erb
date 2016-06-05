@@ -8,6 +8,7 @@
 		Created <%= time_ago_in_words(task.created_at) %> ago.
 		<% if current_user?(task.user) %>
 			<%= link_to "delete", task, method: :delete, data: { confirm: "You sure?" } %>
+			<%= link_to "edit", task, method: :edit %>
 		<% end %>
 	</span>
 </li>
