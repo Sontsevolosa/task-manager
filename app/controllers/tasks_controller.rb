@@ -13,7 +13,13 @@ class TasksController < ApplicationController
 			flash[:success] = "Task created!"
 			redirect_to root_url
 		else
-			render 'login_path'
+			render 'tasks/index'
 		end
 	end
+
+	private
+
+		def task_params
+			params.require(:task).permit(:content)
+		end
 end
