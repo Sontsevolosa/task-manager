@@ -1,6 +1,6 @@
-<h1>Just Do It!</h1>
-<ul class = "tasks">
-	<%= @tasks.each do |task| %>
-		<li><%= task.content %></li>
-	<% end %>
-</ul>
+<div class="col-md-8">
+<h3>Tasks (<%= @tasks.count %>)</h3>
+	<ol class = "tasks">
+		<%= render @tasks %>
+	</ol>
+</div>
