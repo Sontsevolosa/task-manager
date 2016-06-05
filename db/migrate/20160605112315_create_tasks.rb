@@ -6,6 +6,5 @@ class CreateTasks < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-    add_index :tasks
   end
 end
