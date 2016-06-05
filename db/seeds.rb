@@ -5,9 +5,18 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-tasks = Task.order(:created_at).take(6)
-50.times do
-	content = Faker::Lorem.sentence(5)
-	#tasks.each { |task| task.create!(content: content) }
-	Task.create!(content: content)
+
+10.times do |i|
+	user = User.find_or_create_by!(
+		email: "user#{i}@example.com",
+		name: "Jack Smith #{i}'th"
+	) do |u|
+		byebug
+		u.password = 'qweqwe1'
+		u.password_confirmation = 'qweqwe1'
+	end
+
+	20.times do |j|
+		user.tasks.create!(content: Faker::Lorem.sentence)
+	end
 end
