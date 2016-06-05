@@ -1,1 +1,6 @@
 <h1>Just Do It!</h1>
+<ul class = "tasks">
+	<%= @tasks.each do |task| %>
+		<li><%= task.content %></li>
+	<% end %>
+</ul>
