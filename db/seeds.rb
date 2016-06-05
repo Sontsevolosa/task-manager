@@ -11,7 +11,6 @@
 		email: "user#{i}@example.com",
 		name: "Jack Smith #{i}'th"
 	) do |u|
-		byebug
 		u.password = 'qweqwe1'
 		u.password_confirmation = 'qweqwe1'
 	end
