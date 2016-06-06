@@ -22,7 +22,15 @@ class TasksController < ApplicationController
 		@task = Task.find(params[:id])
 	end
 
-	
+	def update
+    	@task = Task.find(params[:id])
+    	if @task.update_attributes(task_params)
+        	flash[:success] = "Task updated"
+        	redirect_to root_url
+    	else
+        	render 'edit'
+    	end
+    end
 
 	def destroy
 		@task.destroy
