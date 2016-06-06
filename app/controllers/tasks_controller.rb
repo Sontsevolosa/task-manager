@@ -32,6 +32,10 @@ class TasksController < ApplicationController
     	end
     end
 
+    def share
+    	@task = Task.find(params[:id])
+    end
+
 	def destroy
 		@task.destroy
 		flash[:success] = "Task deleted"
