@@ -36,11 +36,16 @@ class TasksController < ApplicationController
     	@task = Task.find(params[:id])
     end
 
+    #Adding more users to the task
+    def editing
+    	@task.users << @user
+    end
+
     # Action for share task
     def change
     	@task = Task.find(params[:id])
-    	@user = User.find_by email: params[:user][:email]
-    	@task.users << @user
+    	@user = User.find_by(email: params[:user][:email])
+    	editing
     	redirect_to root_url
     end
 
