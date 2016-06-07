@@ -6,7 +6,7 @@
 	</span>
 	<span class="timestamp">
 		Created <%= time_ago_in_words(task.created_at) %> ago.
-		<% if current_user?(task.user) %>
+		<% if policy(task).update? %>
 			<%= link_to "delete", task, method: :delete, data: { confirm: "You sure?" } %>
 			<%= link_to "edit", edit_task_path(task) %>
 			<%= link_to "share", task_path(task) %>

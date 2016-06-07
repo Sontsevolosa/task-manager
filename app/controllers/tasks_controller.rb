@@ -14,6 +14,7 @@ class TasksController < ApplicationController
 			flash[:success] = "Task created!"
 			redirect_to root_url
 		else
+			@tasks = Task.all.paginate(page: params[:page])
 			render 'tasks/index'
 		end
 	end
