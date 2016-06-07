@@ -55,6 +55,7 @@ class TasksController < ApplicationController
     	@task = Task.find(params[:id])
     end
 
+    # Action for showing contributors
     def shared
     	@task = Task.find(params[:id])
     end
