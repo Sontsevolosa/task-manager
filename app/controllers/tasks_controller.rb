@@ -36,6 +36,19 @@ class TasksController < ApplicationController
     	@task = Task.find(params[:id])
     end
 
+    # Action for share task
+    def change
+    	@task = Task.find(params[:id])
+    	@user = User.find_by email: params[:user][:email]
+    	@task.users << @user
+    	redirect_to root_url
+    end
+
+    # Action for showing sharing form
+    def show
+    	@task = Task.find(params[:id])
+    end
+
 	def destroy
 		@task.destroy
 		flash[:success] = "Task deleted"

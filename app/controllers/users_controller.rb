@@ -24,6 +24,18 @@ class UsersController < ApplicationController
   	end
   end
 
+  def update
+    @user = User.find_by(email: params[:email])
+    if @user
+      @user.share
+      flash[:success] = "Email sent"
+      redirect_to root_url
+    else
+      flash[:danger] = "Email address not found"
+      redirect_to task_path
+    end
+  end
+
   private
 
   	def user_params

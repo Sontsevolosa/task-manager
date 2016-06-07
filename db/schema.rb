@@ -23,12 +23,12 @@ ActiveRecord::Schema.define(version: 20160606071614) do
   add_index "tasks", ["user_id"], name: "index_tasks_on_user_id"
 
   create_table "tasks_users", force: :cascade do |t|
-    t.integer "tasks_id"
-    t.integer "users_id"
+    t.integer "task_id"
+    t.integer "user_id"
   end
 
-  add_index "tasks_users", ["tasks_id"], name: "index_tasks_users_on_tasks_id"
-  add_index "tasks_users", ["users_id"], name: "index_tasks_users_on_users_id"
+  add_index "tasks_users", ["task_id"], name: "index_tasks_users_on_task_id"
+  add_index "tasks_users", ["user_id"], name: "index_tasks_users_on_user_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "name"
