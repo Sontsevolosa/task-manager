@@ -1,7 +1,8 @@
 class TasksController < ApplicationController
 	before_action :logged_in_user, only: [:create, :destroy]
 	before_action :correct_user, only: :destroy
-	
+	let :editor, [:edit, :destroy, :share]
+
 	def index
 		@tasks = Task.all.paginate(page: params[:page])
 		@task = Task.new
