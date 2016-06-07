@@ -19,3 +19,4 @@
 		user.tasks.create!(content: Faker::Lorem.sentence)
 	end
 end
+
