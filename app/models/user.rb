@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
 	has_many :tasks, dependent: :destroy
 	has_and_belongs_to_many :tasks
+	belongs_to :role
 	before_save { self.email = email.downcase }
 	validates :name, presence: true, length: { maximum: 50 }
 	VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
