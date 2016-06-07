@@ -7,9 +7,10 @@
 	<span class="timestamp">
 		Created <%= time_ago_in_words(task.created_at) %> ago.
 		<% if policy(task).update? %>
-			<%= link_to "delete", task, method: :delete, data: { confirm: "You sure?" } %>
-			<%= link_to "edit", edit_task_path(task) %>
-			<%= link_to "share", task_path(task) %>
+			<%= link_to "Delete", task, method: :delete, data: { confirm: "You sure?" } %>
+			<%= link_to "Edit", edit_task_path(task) %>
+			<%= link_to "Share", task_path(task) %>
+			<%= link_to "Contributors", shared_task_path(task) %>
 		<% end %>
 	</span>
 </li>

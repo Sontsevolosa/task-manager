@@ -7,8 +7,13 @@ Rails.application.routes.draw do
   post 'login' => 'sessions#create'
   delete 'logout' => 'sessions#destroy'
   post '/tasks/:id' => 'tasks#change' 
+  get '/tasks/:id/shared' => 'tasks#shared'
   resources :users
-  resources :tasks
+  resources :tasks do
+    member do
+      get 'shared'
+    end
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
