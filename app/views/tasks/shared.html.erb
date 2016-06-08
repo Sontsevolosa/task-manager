@@ -1,6 +1,7 @@
+<div>
 <h1>Contributors</h1>
 <% if @task.users.any? %>
-<div id="div1" class="row">
+<div  class="row">
 	<aside class="col-md-4">
 		<ul class="users">
 			<% @task.users.each do |user| %>
@@ -15,3 +16,4 @@
 <% else %>
 <h2>Oops! This task does not have contributors yet. Please, try another task ^_^</h2>
 <% end %>
+</div>

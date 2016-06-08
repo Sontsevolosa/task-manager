@@ -46,8 +46,12 @@ class TasksController < ApplicationController
     def change
     	@task = Task.find(params[:id])
     	@user = User.find_by(email: params[:user][:email])
-    	editing
-    	redirect_to root_url
+    	unless @task.users.include?(@user)
+	    	editing
+	    	redirect_to root_url
+    	else
+    		redirect_to root_url
+    	end
     end
 
     # Action for showing sharing form
