@@ -63,9 +63,9 @@ class TasksController < ApplicationController
     def shared
     	@task = Task.find(params[:id])
 
-    	#respond_to do |format|
-    		#format.js
-    		#format.html
+    	respond_to do |format|
+    		format.html
+    		format.js
 		end
     end
 
