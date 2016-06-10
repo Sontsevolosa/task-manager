@@ -62,11 +62,6 @@ class TasksController < ApplicationController
     # Action for showing contributors
     def shared
     	@task = Task.find(params[:id])
-
-    	respond_to do |format|
-    		format.html
-    		format.js
-		end
     end
 
 	def destroy
