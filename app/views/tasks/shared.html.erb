@@ -1,19 +1,17 @@
 <h1>Contributors</h1>
-<div id="div1">
-	<% if @task.users.any? %>
-		<div  class="row">
-			<aside class="col-md-4">
-				<ul class="users">
-					<% @task.users.each do |user| %>
-						<li>
-					 		<%= gravatar_for user, size: 50 %>
-					 		<%= link_to user.name, user %>
-						</li>
-					<% end %>
-				</ul>
-			</aside>
-		</div>
-	<% else %>
-		<h2>Oops! This task does not have contributors yet. Please, try another task ^_^</h2>
-	<% end %>
-</div>
+<% if @task.users.any? %>
+	<div  class="row">
+		<aside class="col-md-4">
+			<ul class="users">
+				<% @task.users.each do |user| %>
+					<li>
+				 		<%= gravatar_for user, size: 50 %>
+				 		<%= link_to user.name, user %>
+					</li>
+				<% end %>
+			</ul>
+		</aside>
+	</div>
+<% else %>
+	<h2>Oops! This task does not have contributors yet. Please, try another task ^_^</h2>
+<% end %>
