@@ -1,1 +1,769 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"task",
+				"task_path"
+			],
+			[
+				"pa",
+				"paginate"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"user",
+				"user_roles"
+			],
+			[
+				"fidn",
+				"find_by"
+			],
+			[
+				"b",
+				"belongs_to"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"fla",
+				"flash"
+			],
+			[
+				"lo",
+				"logged_in_user"
+			],
+			[
+				"curre",
+				"current_user"
+			],
+			[
+				"se",
+				"sessions"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"mes",
+				"message_type"
+			],
+			[
+				"error",
+				"errors"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"size",
+				"size_in_megabytes"
+			],
+			[
+				"p",
+				"picture"
+			],
+			[
+				"ass",
+				"assert_select"
+			],
+			[
+				"first",
+				"first_micropost"
+			],
+			[
+				"micro",
+				"microposts_path"
+			],
+			[
+				"mi",
+				"micropost"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"assert",
+				"assert_select"
+			],
+			[
+				"del",
+				"delete"
+			],
+			[
+				"h",
+				"hours"
+			],
+			[
+				"micr",
+				"microposts"
+			],
+			[
+				"fe",
+				"feed_items"
+			],
+			[
+				"l",
+				"logged-in"
+			],
+			[
+				"c",
+				"created_at"
+			],
+			[
+				"as",
+				"assert_not"
+			],
+			[
+				"re",
+				"reset_token"
+			],
+			[
+				"A",
+				"ActionMailer"
+			],
+			[
+				"reset",
+				"reset_digest"
+			],
+			[
+				"password_",
+				"password_resets_path"
+			],
+			[
+				"fin",
+				"find_by"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"for",
+				"form-control"
+			],
+			[
+				"a",
+				"assert_equal"
+			],
+			[
+				"acti",
+				"activated"
+			],
+			[
+				"u",
+				"update_attribute"
+			],
+			[
+				"ac",
+				"action_mailer"
+			],
+			[
+				"en",
+				"encoded"
+			],
+			[
+				"new",
+				"new_token"
+			],
+			[
+				"n",
+				"non_admin"
+			],
+			[
+				"di",
+				"digest"
+			],
+			[
+				"w",
+				"will_paginate"
+			],
+			[
+				"ps",
+				"password_confirmation"
+			],
+			[
+				"fo",
+				"forwarding_url"
+			],
+			[
+				"e",
+				"empty"
+			],
+			[
+				"ed",
+				"edit_user_path"
+			],
+			[
+				"be",
+				"before_action"
+			],
+			[
+				"R",
+				"root_url"
+			],
+			[
+				"fl",
+				"flash"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"remem",
+				"remember_digest"
+			],
+			[
+				"log",
+				"logout_path"
+			],
+			[
+				"coo",
+				"cookies"
+			],
+			[
+				"follow",
+				"follow_redirect"
+			],
+			[
+				"login",
+				"login_path"
+			],
+			[
+				"in",
+				"information"
+			],
+			[
+				"E",
+				"Engine"
+			],
+			[
+				"cu",
+				"current_user"
+			],
+			[
+				"si",
+				"signup_path"
+			],
+			[
+				"err",
+				"errors"
+			],
+			[
+				"password",
+				"password_field"
+			],
+			[
+				"gravatar",
+				"gravatar_url"
+			],
+			[
+				"du",
+				"dublicate_user"
+			],
+			[
+				"asser",
+				"assert_not"
+			],
+			[
+				"asse",
+				"assert_not"
+			],
+			[
+				"lin",
+				"link_to"
+			],
+			[
+				"ba",
+				"base_title"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"iron",
+				"iron-icon"
+			],
+			[
+				"tog",
+				"toggle_status"
+			],
+			[
+				"to_",
+				"to_machine"
+			],
+			[
+				"read",
+				"read_from_file"
+			],
+			[
+				"write",
+				"write_to_file"
+			],
+			[
+				"all",
+				"all_tasks"
+			],
+			[
+				"de",
+				"deleteTask"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"margin",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/controllers/tasks_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/controllers/tasks_controller_test.rb",
+			"settings":
+			{
+				"buffer_size": 171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/users_controller.rb",
+			"settings":
+			{
+				"buffer_size": 571,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 382.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/masya/Programming/task-manager/TaskManager",
+		"/home/masya/Programming/task-manager/TaskManager/app",
+		"/home/masya/Programming/task-manager/TaskManager/app/controllers",
+		"/home/masya/Programming/task-manager/TaskManager/test",
+		"/home/masya/Programming/task-manager/TaskManager/test/controllers",
+		"/home/masya/Programming/task-manager/TaskManager/test/fixtures",
+		"/home/masya/Programming/task-manager/TaskManager/test/helpers",
+		"/home/masya/Programming/task-manager/TaskManager/test/integration"
+	],
+	"file_history":
+	[
+		"/home/masya/Programming/task-manager/TaskManager/Gemfile",
+		"/home/masya/Programming/task-manager/TaskManager/bin/spring",
+		"/home/masya/Programming/task-manager/TaskManager/bin/setup",
+		"/home/masya/Programming/task-manager/TaskManager/bin/rake",
+		"/home/masya/Programming/task-manager/TaskManager/bin/rails",
+		"/home/masya/Programming/task-manager/TaskManager/bin/bundle",
+		"/home/masya/Programming/task-manager/TaskManager/app/assets/javascripts/tasks.js",
+		"/home/masya/Programming/task-manager/TaskManager/app/assets/javascripts/users.coffee",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/tasks/shared.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/tasks/_task.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/config/routes.rb",
+		"/home/masya/Programming/task-manager/TaskManager/config/database.yml",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/tasks/index.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/users/new.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/users/show.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/layouts/_footer.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/app/assets/stylesheets/custom.css.scss",
+		"/home/masya/Programming/task-manager/TaskManager/app/controllers/users_controller.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/policies/task_policy.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/models/task.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/models/user.rb",
+		"/home/masya/Programming/task-manager/TaskManager/config/application.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/helpers/sessions_helper.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/controllers/application_controller.rb",
+		"/home/masya/Programming/task-manager/TaskManager/db/seeds.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/models/role.rb",
+		"/home/masya/Programming/task-manager/TaskManager/db/migrate/20160607102105_create_roles.rb",
+		"/home/masya/Programming/task-manager/TaskManager/db/migrate/20160607113242_create_user_roles.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/users/index.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/db/migrate/20160607095704_create_roles.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/controllers/sessions_controller.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/tasks/show.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/db/migrate/20160606071614_create_tasks_and_users.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/shared/_user_info.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/db/schema.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/tasks/edit.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/db/migrate/20160606063556_tasks_users.rb",
+		"/home/masya/Programming/task-manager/TaskManager/db/migrate/20160605213713_create_contributions.rb",
+		"/home/masya/Programming/task-manager/TaskManager/spec/requests/tasks_showings_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/shared/_task_form.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/shared/_error_messages.html.erb",
+		"/home/masya/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/masya/Programming/task-manager/TaskManager/app/helpers/users_helper.rb",
+		"/home/masya/Programming/task-manager/TaskManager/db/migrate/20160605112315_create_tasks.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/assets/javascripts/application.js",
+		"/home/masya/Programming/task-manager/TaskManager/spec/requests/users_logins_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/layouts/_header.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/sessions/new.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/spec/requests/users_signups_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/spec/controllers/users_controller_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/layouts/application.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/spec/requests/users_indices_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/views/tasks/_tasks.html.erb",
+		"/home/masya/Programming/task-manager/TaskManager/spec/features/user_signup_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/test/models/user_test.rb",
+		"/home/masya/Programming/task-manager/TaskManager/test/controllers/tasks_controller_test.rb",
+		"/home/masya/Programming/task-manager/TaskManager/spec/controllers/tasks_controller_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/db/migrate/20160603173130_add_index_to_users_email.rb",
+		"/home/masya/interface/spec/models/user_status_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/spec/helpers/users_helper_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/spec/views/index_view_spec.rb",
+		"/home/masya/Programming/task-manager/TaskManager/test/integration/site_layout_test.rb",
+		"/home/masya/Programming/task-manager/TaskManager/app/controllers/tasks_controller.rb",
+		"/home/masya/Programming/task-manager/TaskManager/Rakefile.sublime-project",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/controllers/microposts_controller.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/fixtures/microposts.yml",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/controllers/microposts_controller_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/controllers/static_pages_controller.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/Gemfile",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/uploaders/picture_uploader.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/microposts/_micropost.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/shared/_micropost_form.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/models/micropost.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/integration/microposts_interface_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/config/routes.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/controllers/application_controller.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/models/user.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/password_resets/edit.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/users/edit.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/users/new.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/shared/_error_messages.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/shared/_feed.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/shared/_user_info.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/static_pages/home.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/db/seeds.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/integration/users_profile_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/models/micropost_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/models/user_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/controllers/users_controller.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/users/show.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/controllers/sessions_controller.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/mailers/application_mailer.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/mailers/user_mailer.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/user_mailer/password_reset.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/user_mailer/account_activation.text.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/user_mailer/account_activation.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/config/environments/development.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/fixtures/users.yml",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/config/environments/test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/mailers/user_mailer_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/mailers/previews/user_mailer_preview.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/controllers/password_resets_controller.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/integration/password_resets_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/db/migrate/20160530125651_create_microposts.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/integration/users_signup_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/users/index.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/password_resets/new.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/sessions/new.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/controllers/account_activations_controller.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/helpers/sessions_helper.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/user_mailer/password_reset.text.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/users/_user.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/controllers/users_controller_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/integration/users_index_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/db/migrate/20160525084137_add_activation_to_users.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/db/migrate/20160524075123_add_admin_to_users.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/layouts/_header.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/helpers/users_helper.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/integration/users_edit_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/integration/user_login_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/test_helper.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/helpers/sessions_helper_test.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/assets/javascripts/application.js",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/config/environments/production.rb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/config/database.yml",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/app/views/layouts/application.html.erb",
+		"/home/masya/Programming/learning-rails-tutorial-hartl/sample_app/test/controllers/static_pages_controller_test.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jump",
+			"gravatar",
+			"sqlite3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/tasks_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1334,
+								1334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test/controllers/tasks_controller_test.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/users_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								415,
+								415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Rakefile.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"id",
+				"~/Programming/projects/railsgirls/app/controllers/ideas_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "unt",
+		"selected_items":
+		[
+			[
+				"unt",
+				"~/untitled.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
