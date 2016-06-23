@@ -1,16 +1,16 @@
 <li id="task-<%= task.id %>">
-	<%= link_to gravatar_for(task.user, size: 50), task.user %>
-	<span class="user"><%= link_to task.user.name, task.user %></span>
-	<span class="content">
-		<%= task.content %>
-	</span>
-	<span class="timestamp">
-		Created <%= time_ago_in_words(task.created_at) %> ago.
-		<% if policy(task).update? %>
-			<%= link_to "Delete", task, method: :delete, data: { confirm: "You sure?" } %>
-			<%= link_to "Edit", edit_task_path(task) %>
-			<%= link_to "Share", task_path(task) %>
-		<% end %>
-		<%= link_to "Contributors", shared_task_path(task) %>
-	</span>
+  <%= link_to gravatar_for(task.user, size: 50), task.user %>
+  <span class="user"><%= link_to task.user.name, task.user %></span>
+  <span class="content">
+    <%= task.content %>
+  </span>
+  <span class="timestamp">
+    Created <%= time_ago_in_words(task.created_at) %> ago.
+    <% if policy(task).update? %>
+      <%= link_to "Delete", task, method: :delete, data: { confirm: "You sure?" } %>
+      <%= link_to "Edit", edit_task_path(task) %>
+      <%= link_to "Share", task_path(task) %>
+    <% end %>
+    <%= link_to "Contributors", shared_task_path(task) %>
+  </span>
 </li>

@@ -1,16 +1,16 @@
 <h1>Share your task</h1>
 
 <div class="row">
-	<div class="col-md-6 col-md-offset-3">
-		<%= form_for(User.new, url: task_path(@task)) do |f| %>
-			<%= render 'shared/error_messages', object: f.object %>
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(User.new, url: task_path(@task)) do |f| %>
+      <%= render 'shared/error_messages', object: f.object %>
 
-			<%= hidden_field_tag :task_id %>
+      <%= hidden_field_tag :task_id %>
 
-			<%= f.label :email, "User's email for sharing" %>
-			<%= f.email_field :email, class: 'form-control' %>
+      <%= f.label :email, "User's email for sharing" %>
+      <%= f.email_field :email, class: 'form-control' %>
 
-			<%= f.submit "Share", class: "btn btn-primary" %>
-		<% end %>
-	</div>
+      <%= f.submit "Share", class: "btn btn-primary" %>
+    <% end %>
+  </div>
 </div>
