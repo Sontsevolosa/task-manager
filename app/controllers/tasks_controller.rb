@@ -24,45 +24,45 @@ class TasksController < ApplicationController
 	end
 
 	def update
-    	@task = Task.find(params[:id])
-    	if @task.update_attributes(task_params)
-        	flash[:success] = "Task updated"
-        	redirect_to root_url
-    	else
-        	render 'edit'
-    	end
-    end
+		@task = Task.find(params[:id])
+		if @task.update_attributes(task_params)
+			flash[:success] = "Task updated"
+			redirect_to root_url
+		else
+			render 'edit'
+		end
+	end
 
-    def share
-    	@task = Task.find(params[:id])
-    end
+	def share
+		@task = Task.find(params[:id])
+	end
 
-    #Adding more users to the task
-    def editing
-    	@task.users << @user
-    end
+	#Adding more users to the task
+	def editing
+		@task.users << @user
+	end
 
-    # Action for share task
-    def change
-    	@task = Task.find(params[:id])
-    	@user = User.find_by(email: params[:user][:email])
-    	unless @task.users.include?(@user)
-	    	editing
-	    	redirect_to root_url
-    	else
-    		redirect_to root_url
-    	end
-    end
+	# Action for share task
+	def change
+		@task = Task.find(params[:id])
+		@user = User.find_by(email: params[:user][:email])
+		unless @task.users.include?(@user)
+			editing
+			redirect_to root_url
+		else
+			redirect_to root_url
+		end
+	end
 
-    # Action for showing sharing form
-    def show
-    	@task = Task.find(params[:id])
-    end
+	# Action for showing sharing form
+	def show
+		@task = Task.find(params[:id])
+	end
 
-    # Action for showing contributors
-    def shared
-    	@task = Task.find(params[:id])
-    end
+	# Action for showing contributors
+	def shared
+		@task = Task.find(params[:id])
+	end
 
 	def destroy
 		@task.destroy
